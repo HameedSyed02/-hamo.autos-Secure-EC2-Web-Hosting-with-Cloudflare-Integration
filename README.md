@@ -1,4 +1,5 @@
 📌 Important Notes
+
 **Cloudflare Origin Certificate**: This certificate is valid only between Cloudflare and your origin server (EC2). It is not trusted by browsers directly. Ensure that all browser traffic routes through Cloudflare to maintain secure HTTPS connections.
 
 **Do Not Share Private Keys**: Never upload or expose your SSL private key (key.pem) in any public repository. Store it securely on your server with proper file permissions.
