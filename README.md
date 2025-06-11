@@ -169,22 +169,6 @@ Traffic reaches your EC2 instance.
 
 Worker is responding to requests (use logging or modify response).
 
-📁 Folder Structure (Example)
-pgsql
-Copy
-Edit
-project-root/
-├── login-page/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-├── cloudflare-worker/
-│   └── worker.js
-├── README.md
-└── ssl/
-    ├── cert.pem
-    └── key.pem
-🧠 Future Improvements
 Add user authentication logic (e.g., JWT, OAuth).
 
 Monitor traffic with Cloudflare analytics.
