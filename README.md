@@ -40,21 +40,6 @@ sudo systemctl enable httpd
 
 ---
 
-### 2️⃣ Git Clone Web Files
-
-```bash
-# Install Git
-sudo yum install git -y
-
-# Clone repo
-git clone https://github.com/yourusername/your-repo.git
-
-# Copy to web root
-sudo cp -r your-repo/* /var/www/html/
-```
-
----
-
 ### 3️⃣ Generate Origin Certificate (Cloudflare)
 
 1. Go to Cloudflare → **SSL/TLS > Origin Server**
